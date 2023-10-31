@@ -13,10 +13,10 @@ This is a ticketing website built with Next.js, MongoDB, and Mongoose. It allows
 
 To set up this project, you will need to have the following installed:
 
-- Node.js
+- Next.js
 - MongoDB
 - Mongoose
-- Next.js
+- React.js
 
 Once you have all of the required dependencies installed, you can clone this repository and run the following command to install the project dependencies:
 ```
