@@ -1,34 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Ticketing Website
 
-## Getting Started
+This is a ticketing website built with Next.js, MongoDB, and Mongoose. It allows the user to create tickets and sort them by category while displaying the priority, progress, status, created date time, and other information.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+* Create and manage tickets
+* Sort tickets by category
+* Display ticket priority, progress, status, created date time, and other information
+* CRUD operations (create, read, update, delete)
+
+## Setup
+
+To set up this project, you will need to have the following installed:
+
+- Node.js
+- MongoDB
+- Mongoose
+- Next.js
+
+Once you have all of the required dependencies installed, you can clone this repository and run the following command to install the project dependencies:
+```
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+To start the development server, run the following command:
+```
+npm run dev
+```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+The development server will be running on port 3000. You can access the application at http://localhost:3000.
 
-## Learn More
+## Usage
 
-To learn more about Next.js, take a look at the following resources:
+To create a new ticket, navigate to the **Create Ticket** page and enter the required information. Once you have entered all of the required information, click the **Create Ticket** button.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+To sort tickets by category, click on the **Category** header. Tickets will be sorted by the selected category.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+To display ticket priority, progress, status, created date time, and other information, click on the **Ticket Details** link for the desired ticket.
 
-## Deploy on Vercel
+## Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+link if published - 
